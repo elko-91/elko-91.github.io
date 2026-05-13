@@ -487,6 +487,10 @@ footer {
     }
 
 
+    .footer {
+        margin-bottom: 2%;
+    }
+    
     .footer-container a {
         font-size: .85rem;
         padding-top: 2%;
