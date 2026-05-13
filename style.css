@@ -194,6 +194,9 @@ h4 {
     transition: .8s ease-in-out;
     cursor: pointer;
     text-decoration: none;
+    -webkit-appearance: none;
+    appearance: none;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .button:hover {
