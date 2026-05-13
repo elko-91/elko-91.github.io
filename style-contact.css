@@ -1,0 +1,186 @@
+.div3 {
+    padding-top: 15vh;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-form {
+    width: 22vw;
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    color: white;
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    padding: 1% 2% 1% 2%;
+    border-radius: 50px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    margin-bottom: 2%;
+    background-color: transparent;
+}
+
+.button {
+    border: 1px solid #333333;
+}
+
+input,
+textarea {
+    background-color: white;
+    color: black;
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    padding: 1% 2% 1% 2%;
+    border-radius: 50px;
+    text-decoration: none;
+    margin-bottom: 5%;
+    border: 0px transparent;
+}
+
+input {
+    background-color: white;
+    width: auto;
+}
+
+input::after {
+    background-color: white;
+}
+
+
+.contact-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+
+
+.contact-list a {
+    width: 27vw;
+    color: white;
+    background-color: transparent;
+    font-size: 3rem;
+    font-family: "Sofia Sans Semi Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0,
+        "wdth" 100,
+        "CTRS" 0;
+    margin-top: 2%;
+    text-align: center;
+}
+
+
+
+.predstavitel-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    align-items: center;
+    width: 100%;
+}
+
+.predstavitel {
+    background-color: transparent;
+    border-bottom: 2px solid #333333;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 27vw;
+    margin-bottom: 1%;
+    padding-bottom: 1%;
+    transition: .5s ease-in-out;
+}
+
+.predstavitel:hover {
+    background-color: #202020;
+    transition: .5s ease-in-out;
+}
+
+.predstavitel a {
+    
+    background-color: transparent;
+    
+    
+}
+
+.rep-name {
+    background-color: transparent;
+    font-size: 2rem;
+    font-family: "Sofia Sans Semi Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0,
+        "wdth" 100,
+        "CTRS" 0;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+.rep-title {
+    background-color: transparent;
+    font-size: 2rem;
+    font-family: "Sofia Sans Semi Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: italic;
+    font-variation-settings:
+        "slnt" 0,
+        "wdth" 100,
+        "CTRS" 0;
+    color: #606060;
+    line-height: 2rem;
+}
+
+
+@media only screen and (max-width: 900px) {
+
+    .div3 {
+        padding-top: 10vh;
+    }
+
+
+
+    .contact-form {
+        height: 47vh;
+        width: 85vw;
+        margin-bottom: 10%;
+    }
+    
+    .contact-list a {
+        width: 85vw;
+        font-size: 2.25rem;
+        margin: 5% 0% 3% 0%;
+    }
+
+    .predstavitel {
+        width: 85vw;
+        font-size: 1rem;
+    }
+
+    .predstavitel a {
+        font-size: 1.75rem;
+    }
+
+}
