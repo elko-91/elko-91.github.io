@@ -163,7 +163,7 @@ input::after {
 
 
     .contact-form {
-        height: 47vh;
+        height: fit-content;
         width: 85vw;
         margin-bottom: 10%;
     }
