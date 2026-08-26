@@ -166,6 +166,8 @@ input::after {
         height: fit-content;
         width: 85vw;
         margin-bottom: 10%;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
     }
     
     .contact-list a {
