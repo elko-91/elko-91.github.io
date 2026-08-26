@@ -9,7 +9,7 @@
 
 .contact-form {
     width: 22vw;
-    height: 55vh;
+    height: fit-content;
     display: flex;
     justify-content: center;
     align-content: center;
