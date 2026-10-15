@@ -1,0 +1,55 @@
+.thanks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: transparent;
+    width: 100%;
+}
+
+.thanks-logo {
+    font-family: logoFont;
+    font-size: 6rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    margin-top: 5%;
+    user-select: none;
+    text-decoration: none;
+    transition: .5s ease-in-out;
+    padding: 2.5% 5% 2.5% 5%;
+}
+
+.thanks-logo:hover {
+    text-shadow: 0 0 10px white;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+}
+
+
+.button {
+    border: 1px solid #333333;
+    padding: 1% 3% 1% 3%;   
+}
+
+.button:hover {
+    padding-left: 4.5%;
+    padding-right: 4.5%;
+    transition: .8s ease-in-out;
+}
+
+
+@media only screen and (max-width: 900px) {
+
+    .thanks-logo {
+        margin-top: 35%;
+        margin-bottom: 35%;
+    }
+
+    .button {
+        margin-top: 15%;
+        padding: 2.5% 7.5% 2.5% 7.5%;
+    }
+}
